@@ -13,6 +13,7 @@ If you want to customize your app, easiest is to fork this repository.
 ### heroku - automatic deployment
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Felements.heroku.com%2F&template=https%3A%2F%2Fgithub.com%2Fitq5%2Fheroku-jupyter)
 
 If you forked this repository, you can link it to your heroku app afterwards.
 
