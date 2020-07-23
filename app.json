@@ -3,6 +3,12 @@
   "buildpacks": [
     { "url": "https://github.com/itq5/heroku-buildpack-conda" }
   ],
+  "env": {
+    "JUPYTER_NOTEBOOK_PASSWORD": {
+      "description": "IMPORTANT! Set a secure password.",
+      "value": null
+    }
+  },
   "addons": [
     "heroku-postgresql:hobby-dev"
   ]
