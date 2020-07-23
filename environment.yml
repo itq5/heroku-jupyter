@@ -1,6 +1,7 @@
 name: ipython-notebook
 dependencies:
   - notebook
+  - jupyterlab
   - ipywidgets
   - requests
   # get dependencies for pgcontents
