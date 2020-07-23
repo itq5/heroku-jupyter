@@ -23,7 +23,7 @@ repository to your heroku app.
 
 Use the [heroku-buildpack-conda](https://github.com/itq5/heroku-buildpack-conda):
 ```
-$ heroku buildpacks:set https://github.com/p-a-c-o/heroku-buildpack-conda.git -a <your_app>
+$ heroku buildpacks:set https://github.com/itq5/heroku-buildpack-conda.git -a <your_app>
 ```
 
 To protect your notebooks a random password is used until you set the environment variable `JUPYTER_NOTEBOOK_PASSWORD`:
