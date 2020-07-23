@@ -1,18 +1,22 @@
-name: root
+name: ipython-notebook
 dependencies:
-  - pip
   - notebook
   - ipywidgets
   - requests
-  - ipython
-  - tornado
   # get dependencies for pgcontents
-  - sqlalchemy
-  - alembic
+  - certifi
   - click
-  - cryptography 
+  - mako
+  - psycopg2
   - six
+  - sqlalchemy
+  - nose
   - pip:
-    - pgcontents
-    - psycopg2-binary
-    - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
+    - numpy
+    - scipy
+    - pydicom
+    - scikit-image
+    - matplotlib
+    - git+git://github.com/pl31/pgcontents.git
+    - git+git://github.com/Theano/Theano.git
+    - git+git://github.com/fchollet/keras.git
