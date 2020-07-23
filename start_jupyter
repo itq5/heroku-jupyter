@@ -2,7 +2,7 @@
 
 pgcontents init -l $DATABASE_URL --no-prompt
 
-jupyter notebook \
+jupyter lab \
 	--no-browser --no-mathjax --ip=* --port $PORT \
 	--config=jupyterconfig.py \
 	notebooks
